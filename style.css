@@ -137,8 +137,6 @@ footer {
 
 @media screen and (max-width: 450px) {
     main > section, main > article {
-        padding: 18px 96px;
-        border-left: 5px;
         margin-bottom: 0;
     }
     header {
@@ -157,16 +155,27 @@ footer {
     }
     h1 {
         margin: 10px 0;
+        font-size: 1.8rem;
     }
     main > section.hero > .call-to-action {
         font-size: 1.6rem;
         padding: 10px;
     }
-
-  .image {
+    main > article img{
         display: flex;
-        justify-self: center;
         padding: 10px;
+        margin: auto;
+        padding: auto;
+        float: none;
+        justify-content: center;
+    }
+
+    main > section, main > article {
+        padding: 5px;
+    }
+
+    main p {
+        font-size: 1rem;
     }
 
 }
@@ -190,6 +199,14 @@ footer {
     h1 {
         margin: 10px 0;
     }
+    main > article img{
+        display: flex;
+        padding: 10px;
+        margin: 0;
+        padding: 0;
+        float: none;
+        justify-content: center;
+    }
 }
 
 
@@ -204,5 +221,14 @@ footer {
     body, article, section.hero {
         max-width: 180px;
         width: 100%;
+    }
+
+    main > article img{
+        display: flex;
+        padding: 10px;
+        margin: 0;
+        padding: 0;
+        float: none;
+        justify-content: center;
     }
 }
