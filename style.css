@@ -114,7 +114,6 @@ main article {
 main p {
     line-height: 1.75;
     margin-bottom: 48px;
-    float: right;
   }
   
 main > article img {
@@ -161,7 +160,7 @@ footer {
         font-size: 1.6rem;
         padding: 10px;
     }
-    main > article img{
+    main > article img {
         display: flex;
         padding: 10px;
         margin: auto;
